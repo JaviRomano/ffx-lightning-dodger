@@ -6,7 +6,7 @@ Herramienta de automatizacion de videojuegos basada en vision por computador, es
 
 Automatizacion en tiempo real que detecta un patron visual en pantalla y ejecuta una respuesta de input de forma automatica. El sistema usa una arquitectura multi-hilo: un hilo se encarga de la captura de pantalla, otro de la deteccion del patron y otro de la simulacion de input, ejecutandose de forma concurrente para minimizar la latencia.
 
-En concreto, detecta el destello de los rayos en *Final Fantasy X* (Steam, Llanura de los Rayos) y pulsa la tecla de esquive con un delay fijo calibrado. Solo lee pixeles de pantalla y simula teclado: sin APIs de Steam ni acceso a memoria del proceso.
+En concreto, detecta el destello en la llanura de los rayos en *Final Fantasy X* (Steam) y pulsa la tecla de esquive con un delay fijo calibrado. Solo lee pixeles de pantalla y simula teclado: sin APIs de Steam ni acceso a memoria del proceso.
 
 ## Stack
 
