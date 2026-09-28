@@ -1,0 +1,10 @@
+# Versiones fijadas: combinación validada (mss 10.x tiene un bug con instancias anidadas)
+opencv-python==4.13.0.92   # no usar -headless: el selector de ROI necesita imshow
+numpy==2.4.4
+mss==10.1.0
+pynput==1.8.1
+customtkinter==6.0.0
+psutil==7.2.2
+
+# Solo para generar el .exe (build_exe.ps1)
+pyinstaller==6.22.3

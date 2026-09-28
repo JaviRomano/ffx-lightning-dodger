@@ -1,0 +1,20 @@
+{
+  "fps_objetivo": 30,
+  "roi_porcentaje": 0.4,
+  "roi_manual": true,
+  "roi_top": 44,
+  "roi_left": 170,
+  "roi_width": 1907,
+  "roi_height": 968,
+  "umbral_blancura_rgb": 240,
+  "umbral_valor_hsv": 205,
+  "area_minima_pixeles": 10,
+  "delta_minimo": 0.05,
+  "confianza_minima": 0.6,
+  "debounce_ms": 50,
+  "timeout_sin_destello_s": 60,
+  "tecla_dodge": "c",
+  "duracion_pulsacion_ms": 100,
+  "delay_dodge_ms": 220,
+  "lag_critico_ms": 150
+}

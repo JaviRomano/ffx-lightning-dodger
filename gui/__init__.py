@@ -1,0 +1,1 @@
+"""Interfaz mínima con customtkinter."""
